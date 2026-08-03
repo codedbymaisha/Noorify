@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+body{
+background: linear-gradient(135deg, #1e3c72, #2a5298, #f8cdda);
+    color:rgb(17, 18, 18);
+}
+#header{
+    background-color: #f8cdda;
+    height: 35px;
+
+}
+.btn{
+    height:150px;
+     box-shadow:2px 2px 5px rgb(22, 22, 20);
+    width:450px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #f8cdda);
+    margin:auto;
+    border-radius: 10px;
+   
+ 
+
+}
+button{
+    height:40px;
+    width:100px;
+   border:1.5px solid rgb(250, 250, 250) ;
+   box-shadow:2px 2px 5px rgb(36, 35, 35);
+   border-radius: 10px;;
+   margin: 5px;
+   font-size: 15px;
+   text-align: center;
+  
+   
+}
+#lower{
+   background: linear-gradient(135deg, #1e3c72, #2a5298, #f8cdda);
+    box-shadow:2px 2px 5px rgb(30, 30, 25);
+   color:white;
+    height: 100px;
+    width:400px;
+    margin: 20px auto;
+    font-size: 20px;
+    font: 20px black;
+    border-radius: 10px;
+    padding:30px;
+
+}
+h2{
+    color:white;
+   
+}
+.btn button.active {
+    background-color: #f3c6cf;
+    border: 3px solid #ffffff;
+    transform: scale(1.08);
+}
+
+
+.popup {
+    display: none;
+}
+.popup {
+    display: none;
+}
+.popup.show {
+    display: flex;
+}
+#close-btn{
+    height:20px;
+    width:30px
+}
+
+.popup-content{
+   background: linear-gradient(135deg, #8e95a3, #2a5298, #f8cdda);
+    box-shadow:2px 2px 5px rgb(30, 30, 25);
+   color:white;
+    height: 100px;
+    width:400px;
+    margin: 10px auto;
+    font-size: 15px;
+    font: 20px rgb(136, 37, 37);
+    border-radius: 10px;
+    padding:30px;
+}
